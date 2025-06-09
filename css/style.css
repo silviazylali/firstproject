@@ -1,0 +1,52 @@
+header{
+    background-color:rgb(178, 199, 231);
+    height: 130px;
+    width: 92%;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    
+}
+
+header > h1{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.nav-bar{
+    list-style-type: none;
+    text-align: center;
+    
+
+}
+.nav-bar > li{
+    display: inline;
+    margin-right: 50px;
+    padding: 20px;
+    
+    
+}
+.nav-bar > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav-bar > li > a:hover{
+    color: blue;
+}
+
+.photo{
+    height: 700px;
+    width: 30%;
+    border-radius: 10px;
+    padding-right: 25px;
+    
+}
+
+footer  p {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
